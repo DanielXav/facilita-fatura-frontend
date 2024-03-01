@@ -1,0 +1,29 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.mat-toolbar {
+  display: flex;
+  align-items: center;
+  background-color: #673AB7;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  line-height: 50px;
+  color: white;
+}
+
+button[mat-raised-button][color="accent"] {
+  background-color: #FFC107;
+  color: black;
+  font-weight: bold;
+}
+
+.mr-8 {
+  margin-right: 8px; /* Ou qualquer valor que desejar */
+}
